@@ -1,11 +1,11 @@
 # URL Shortener 
 ###  Frontend
-React
+-React
 ### Backend
-Node.js
-Express.js
-Insomnia
-SQLite
+-Node.js
+-Express.js
+-Insomnia
+-SQLite
 ## Features
 
 - Create short URLs from long ones
