@@ -1,7 +1,11 @@
-# URL Shortener Frontend
-
-This is the React frontend for a simple URL Shortener application.
-
+# URL Shortener 
+###  Frontend
+React
+### Backend
+Node.js
+Express.js
+Insomnia
+SQLite
 ## Features
 
 - Create short URLs from long ones
