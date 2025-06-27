@@ -1,0 +1,63 @@
+.stats-container {
+  max-width:600px;
+  margin:40px auto;
+  padding:24px;
+  background-color:#fffaf2;
+  border-radius:12px;
+  box-shadow:0 4px 10px grey;
+  font-family:Arial, sans-serif;
+}
+
+.stats-container h2 {
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.stats-container input {
+  width:100%;
+  padding:10px;
+  font-size:16px;
+  margin-bottom:12px;
+  border:1px solid #ccc;
+  border-radius:6px;
+}
+
+.stats-container button {
+  width:100%;
+  padding:10px;
+  background-color:#009966;
+  color:white;
+  font-size:16px;
+  border:none;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.stats-container button:hover {
+  background-color:#007a52;
+}
+
+.analytics {
+  margin-top:20px;
+  background:#f0fff0;
+  padding:16px;
+  border-left:4px solid #33cc33;
+  border-radius:6px;
+}
+
+.analytics ul {
+  list-style:none;
+  padding-left:0;
+}
+
+.analytics li {
+  margin-bottom:8px;
+  padding:6px;
+  background:#e6ffe6;
+  border-radius:4px;
+}
+
+.error {
+  color:red;
+  margin-top:16px;
+}
