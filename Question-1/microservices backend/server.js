@@ -62,29 +62,6 @@ app.post('/shorturls', async (req, res) => {
 });
 
 
-
-// app.get('/:shortcode', async (req, res) => {
-//   try {
-//     const { shortcode } = req.params;
-
-//     const url = await db.get(`SELECT * FROM urls WHERE shortcode = ?`, [shortcode]);
-//     if (!url) return res.status(404).send('Shortcode not found');
-
-//     if (new Date() > new Date(url.expiresAt)) {
-//       return res.status(410).send('Link expired');
-//     }
-
-//     await db.run(
-//       `INSERT INTO clicks (shortcode, timestamp, referrer, geo) VALUES (?, ?, ?, ?)`,
-//       [shortcode, new Date().toISOString(), req.get('Referrer') || '', 'IN']
-//     );
-
-//     res.redirect(url.longUrl);
-//   } catch (err) {
-//     res.status(500).send('Internal Server Error');
-//   }
-// });
-
 app.get('/:shortcode', async (req, res) => {
   try {
     const { shortcode } = req.params;
